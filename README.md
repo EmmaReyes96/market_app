@@ -27,8 +27,8 @@ Utiliza TypeScript y ESLint.
 # Docker
 
 Se proporciona un Dockerfile para construir la aplicación dentro de un contenedor.
-Simplemente ejecuta `docker build -t "market_app"` . para construir la imagen y luego `docker run -d -p 8080:8080 market_app` para ejecutar la aplicación.
-Para detener el contenedor ejecutando `docker kill nombre_del_contenedor`. Reemplaza nombre_del_contenedor con el ID o el nombre de tu contenedor Docker.
+Simplemente ejecuta `docker build . -t "market_app"` . para construir la imagen y luego `docker run -d -p 8080:8080 market_app` para ejecutar la aplicación.
+Para detener el contenedor ejecutando `docker kill id_del_contenedor`. Reemplaza id_del_contenedor con el ID o el nombre de tu contenedor Docker.
 
 # Levantar el Proyecto Local
 
