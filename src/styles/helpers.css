@@ -1,0 +1,19 @@
+.card {
+  @apply shadow-md p-4 bg-white rounded-lg;
+}
+.btn-primary {
+  @apply bg-primary rounded-3xl py-2 px-4 text-white;
+}
+.btn-gray {
+  @apply bg-gray-500 rounded-3xl py-2 px-4 text-white;
+}
+
+.input {
+  @apply bg-primary-light;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.input:focus-visible {
+  outline: #f47458 auto 1px;
+}

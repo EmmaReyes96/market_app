@@ -1,0 +1,14 @@
+.spinner {
+  will-change: filter;
+  transition: filter 300ms;
+  animation: spin-kf infinite 5s linear;
+}
+
+@keyframes spin-kf {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

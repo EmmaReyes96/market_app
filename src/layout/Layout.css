@@ -1,0 +1,35 @@
+.sidebar-open {
+  min-width: 16rem;
+  animation: slideIn 0.5s forwards;
+  display: block;
+}
+
+.sidebar-closed {
+  display: none;
+}
+
+.content {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: contentIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    min-width: 0rem;
+  }
+  to {
+    min-width: 16rem;
+  }
+}
+
+@keyframes contentIn {
+  50% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
